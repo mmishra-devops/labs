@@ -29,7 +29,7 @@ CI ( continuous Integration )
 Jenkins Job      : maven goal           : post build action 
                 
                  
-job1-codereview	 : -P metrics pmd:pmd   : **/pmd.xml ( publish pmd analysis results )
+job1-codereview	 : -P metrics pmd:pmd   : **/pmd.xml (Record Compiler Warning and static Analysis) ( publish pmd analysis results )
                  
 job2-unittest    : test                 : target/surefire-reports/*.xml
                  
